@@ -1,0 +1,50 @@
+html {
+  font-size: 18px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: .5rem;
+  line-height: 1.25;
+  color: #111;
+  text-rendering: optimizeLegibility;	
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+h2, h3, h4, h5, h6 {
+	font-size: 1.7rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #333;
+
+}
+
+a {
+  color: ;
+}
+
+img {
+	width: 100%;
+}
+
+.card {
+	width: 100%;
+}
+
+@media (min-width: 48em) {
+	main {
+		max-width: 950px;
+		margin: 0 auto;
+	}
+	.card {
+		width: 50%;
+	}
+}
