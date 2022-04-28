@@ -1,0 +1,66 @@
+#hero {
+  background-color: #4fcdff;
+}
+
+@media (min-width: 992px) {
+  #hero {
+  background-image: url("images/index_local_hero.png");
+  background-size: cover;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  }
+/*  .my-md-10{
+    margin-top: 10rem !important;
+    margin-bottom: 10rem !important;
+  }*/
+  .is-md-hidden {
+    display: none;
+  }
+}
+/*.pl-6 {
+  padding-left: 6rem;
+}
+
+.py-6 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.py-7 {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.py-8 {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.py-9 {
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+}
+
+.py-10 {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.py-15 {
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+}*/
+
+.fs-7 {
+  font-size: 3rem;
+}
+
+@media (min-width: 1200px) {
+  .fs-7 {
+    font-size: 6rem;
+  }
+}
+
+.icon {
+  width: 30px;
+}
