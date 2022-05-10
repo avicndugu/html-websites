@@ -2,7 +2,7 @@
   background-color: #4fcdff;
 }
 
-@media (min-width: 992px) {
+@media(min-width: 992px) {
   #hero {
   background-image: url("images/index_local_hero.png");
   background-size: cover;
@@ -64,3 +64,24 @@
 .icon {
   width: 30px;
 }
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  top: 24rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 60rem;
+}
+
+.carousel-indicators {
+  top: 25rem;
+  z-index: 10;
+}
+

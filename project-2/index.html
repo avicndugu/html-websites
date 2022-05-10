@@ -12,7 +12,7 @@
     <title>Bootstrap 5 project with Animation</title>
   </head>
   <body>
-    <div class="container-fluid text-center" style="color: #fff;background-color: rgb(25, 53, 94);">
+    <div class="container-fluid text-center text-light" style="background-color: rgb(25, 53, 94);">
       <div class="py-2">
         <p class="fs-5">We have exciting news! We will be your favorite bank with the acquisition of Century MFB.</p>
       </div>
@@ -36,20 +36,20 @@
       <div class="container text-center py-3">
         <div class="row">
           <div class="col-lg-4">
-            <div class="p-5 mb-4" style="background-color:#f2f2f2;">
+            <div class="p-5 h-100" style="background-color:#f2f2f2;">
               <h3>Build credit<br /> as you go</h3>
               <img src="images/icon_1.png" alt="" class="py-5">
               <p>We designed our loan process to fit your needs and help you grow. As you build credit with Branch, you unlock larger loan amounts.</p>
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="p-5" style="background-color:#f2f2f2;">
+            <div class="p-5 h-100" style="background-color:#f2f2f2;">
               <h3>Unlimited free transfers <br/> from your wallet</h3>
               <img src="images/icon_5.png" alt="" class="py-5">
               <p>With the Branch Wallet, you can send and receive payments with your friends and family, at no cost.</p>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 h-100">
             <div class="p-5" style="background-color:#f2f2f2;">
               <h3>Pay bills instantly <br /> (Launching soon)</h3>
               <img src="images/icon_6.png" alt="" class="py-5">
@@ -59,10 +59,170 @@
         </div>
       </div>
     </div>
-    <div class="container text-center">
 
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 py-5">
+          <img src="images/plants.png" class="img-fluid">
+        </div>
+        <div class="col-lg-6">
+          <div id="containerCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators position-relative">
+              <a type="button" data-bs-target="#containerCarousel" data-bs-slide-to="0" class="fs-4 active" aria-current="true" aria-label="Slide 1"></a>
+              <a type="button" data-bs-target="#containerCarousel" data-bs-slide-to="1" class="fs-4" aria-label="Slide 2"></a>
+              <a type="button" data-bs-target="#containerCarousel" data-bs-slide-to="2" class="fs-4" aria-label="Slide 3"></a>
+              <a type="button" data-bs-target="#containerCarousel" data-bs-slide-to="3" class="fs-4" aria-label="Slide 3"></a>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="container">
+                  <div class="carousel-caption text-center">
+                    <h1>Download the Branch app and create your account</h1>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container">
+                  <div class="carousel-caption text-center">
+                    <h1>Apply for the loan that matches your needs</h1>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container">
+                  <div class="carousel-caption text-center">
+                    <h1>Receive your loan into your Branch wallet</h1>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container">
+                  <div class="carousel-caption text-center">
+                    <h1>Transfer to your bank account, send money to friends and family, or pay bills - all at no cost</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#containerCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#containerCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!-- End of Carousel -->
+        </div>
+        <!-- End of col -->
+      </div>
     </div>
-    <!-- Optional JavaScript: Bootstrap Bundle with Popper -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <div class="container-fluid">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="p-5 h-100" style="background-color:#f2f2f2;">
+              <img src="images/privacy_icon_1.png" class="pb-2">
+              <h3 class="pb-2">Security</h3>
+              <p class="pb-2">All the data we use is encrypted and protected.</p>
+              <p class="pb-2">We have strict policies in place that ensure our methods are properly communicated and customer data is always secure.</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="p-5 h-100" style="background-color:#f2f2f2;">
+              <img src="images/privacy_icon_2.png" class="pb-2">
+              <h3 class="pb-2">Data privacy</h3>
+              <p class="pb-2">We never sell customer data or share customer contacts with third parties.</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="p-5 h-100" style="background-color:#f2f2f2;">
+              <img src="images/privacy_icon_3.png" class="pb-2">
+              <h3 class="pb-2">Ethical collections</h3>
+              <p class="pb-2">We do not condone any aggressive debt collection practices, including debt shaming.</p>
+              <p class="pb-2">If you experience any form of harassment, please report the issue to us immediately via in-app chat.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="container py-5">
+        <div class="row py-5">
+          <div class="col-lg-7">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="mb-4">
+                  <img src="images/tile_1-for-video-writing.jpg">
+                </div>
+                <div>
+                  <img src="images/tile_2-tailoring.jpg">
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <img src="images/tile_3-cloth-business.jpg">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="px-5">
+              <h3 class="h1 mb-5">Real Branch Stories</h3>
+              <p class="fs-4">“Since I joined Branch my life has changed and I'm able to my manage my business better. I use my loans to pay my workers and buy construction materials. I'm now at the Ksh 50,000 loan limit!”</p>
+              <p class="fs-4 my-5">– Caroline N., Kisumu</p>
+              <a class="btn btn-dark py-3 px-5 fs-5">Download Branch on Google Play</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="container-fluid text-center text-light" style="background-color: rgb(25, 53, 94);">
+      <div class="container py-5">
+        <div class="row py-5">
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-sm-6">
+                <h3 class="h3">Curious about Branch?</h3>
+                  <a href="" class="link-light">About</a>
+                  <a href="" class="link-light">How it works</a>
+                  <a href="" class="link-light">In the news</a>
+              </div>
+              <div class="col-sm-6">
+                <h3 class="h3">Legal</h3>
+                <a href="" class="link-light">Terms of use</a>
+                <a href="" class="link-light">Privacy policy</a> 
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div>
+              <h3 class="h3">Download</h3>
+
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div>
+              <h3 class="h3">Contact Information</h3>
+
+  10th Floor, Reliable Towers,
+  11 Mogotio Road, Off Chiromo Lane,
+  Westlands, Nairobi.
+
+  +254 711 995555
+            </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script>
+      var containerCarousel = document.querySelector('#containerCarousel')
+      var carousel = new bootstrap.Carousel(containerCarousel)
+    </script>
     </body>
+
 </html>
