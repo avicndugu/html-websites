@@ -28,7 +28,7 @@
       }
       /* Since positioning the image, we need to help out the caption */
       .carousel-caption {
-        bottom: 3rem;
+        top: 14rem;
         z-index: 10;
       }
 
@@ -43,6 +43,17 @@
         min-width: 100%;
         height: 32rem;
       }
+
+      .my-carousel-indicators {
+        top: 10rem;
+        z-index: 10;
+        color: red;
+      }
+      /*.my-carousel-indicators [data-bs-target] {
+        width: 50px;
+        height: 50px;
+        color: red;
+      }*/
 
 
     </style>
@@ -121,18 +132,18 @@
     <!-- End of col -->
     <div class="col-lg-6">
       <div id="containerCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#containerCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#containerCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#containerCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#containerCarousel" data-bs-slide-to="3" aria-label="Slide 3"></button>
+        <div class="my-carousel-indicators position-absolute start-50 translate-middle">
+          <a type="button" data-bs-target="#containerCarousel" data-bs-slide-to="0" class="fs-4 active" aria-current="true" aria-label="Slide 1">01</a>
+          <a type="button" data-bs-target="#containerCarousel" data-bs-slide-to="1" class="fs-4" aria-label="Slide 2">02</a>
+          <a type="button" data-bs-target="#containerCarousel" data-bs-slide-to="2" class="fs-4" aria-label="Slide 3">03</a>
+          <a type="button" data-bs-target="#containerCarousel" data-bs-slide-to="3" class="fs-4" aria-label="Slide 3">04</a>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
             <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
 
             <div class="container">
-              <div class="carousel-caption text-start">
+              <div class="carousel-caption text-center">
                 <h1>Example headline.</h1>
               </div>
             </div>
@@ -141,7 +152,7 @@
             <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
 
             <div class="container">
-              <div class="carousel-caption">
+              <div class="carousel-caption text-center">
                 <h1>Another example headline.</h1>
               </div>
             </div>
@@ -150,7 +161,7 @@
             <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
 
             <div class="container">
-              <div class="carousel-caption text-end">
+              <div class="carousel-caption text-center">
                 <h1>One more for good measure.</h1>
               </div>
             </div>
@@ -159,7 +170,7 @@
             <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
 
             <div class="container">
-              <div class="carousel-caption text-end">
+              <div class="carousel-caption text-center">
                 <h1>One more for good measure.</h1>
               </div>
             </div>
