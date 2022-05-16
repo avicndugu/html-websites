@@ -17,39 +17,6 @@
     display: none;
   }
 }
-/*.pl-6 {
-  padding-left: 6rem;
-}
-
-.py-6 {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-}
-
-.py-7 {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
-}
-
-.py-8 {
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-}
-
-.py-9 {
-  padding-top: 9rem;
-  padding-bottom: 9rem;
-}
-
-.py-10 {
-  padding-top: 10rem;
-  padding-bottom: 10rem;
-}
-
-.py-15 {
-  padding-top: 15rem;
-  padding-bottom: 15rem;
-}*/
 
 .fs-7 {
   font-size: 3rem;
@@ -85,3 +52,20 @@
   z-index: 10;
 }
 
+
+.carousel-image {
+  right: 100%;
+  z-index: 200;
+}
+
+a.link-light {
+  text-decoration: none;
+  border-bottom: 2px solid #eee;
+}
+
+#section-4 {
+  background-image: url('images/half-moon-with-ring.png'), url('images/small-circle.png'), url('images/half-moon.png');
+  background-repeat: no-repeat;
+  background-position: 100% -45%, 4% 40%, 0 115%;
+  background-size: 15%, 5%, 10%;background-color: rgb(25, 53, 94);
+}
